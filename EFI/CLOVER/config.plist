@@ -584,7 +584,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-alcbeta npci=0x3000 -lilubetaall -liludbgall -v</string>
+		<string>-alcbeta npci=0x3000 -lilubetaall -liludbgall</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
@@ -631,7 +631,7 @@
 			<string>Preboot</string>
 			<string>Recovery</string>
 			<string>Windows</string>
-			<string>legecy</string>
+			<string>Legacy</string>
 		</array>
 		<key>Mouse</key>
 		<dict>
