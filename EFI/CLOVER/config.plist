@@ -576,11 +576,15 @@
 				<false/>
 			</dict>
 		</dict>
+		<key>SortedOrder</key>
+		<array>
+			<string>SSDT_NVMe.aml</string>
+		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-alcbeta npci=0x3000 -lilubetaall -liludbgall</string>
+		<string>-alcbeta npci=0x3000 -lilubetaall -liludbgall -v</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
@@ -592,7 +596,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>3</integer>
+		<integer>2</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
@@ -627,6 +631,7 @@
 			<string>Preboot</string>
 			<string>Recovery</string>
 			<string>Windows</string>
+			<string>legecy</string>
 		</array>
 		<key>Mouse</key>
 		<dict>
