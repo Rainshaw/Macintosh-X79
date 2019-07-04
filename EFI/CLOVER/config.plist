@@ -579,6 +579,7 @@
 		<key>SortedOrder</key>
 		<array>
 			<string>SSDT_NVMe.aml</string>
+			<string>SSDT.amlß</string>
 		</array>
 	</dict>
 	<key>Boot</key>
@@ -645,7 +646,7 @@
 			<integer>2</integer>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>1920x1080</string>
+		<string>3840x2160</string>
 		<key>Theme</key>
 		<string>ElCapitan</string>
 	</dict>
