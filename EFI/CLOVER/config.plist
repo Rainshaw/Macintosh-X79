@@ -576,16 +576,11 @@
 				<false/>
 			</dict>
 		</dict>
-		<key>SortedOrder</key>
-		<array>
-			<string>SSDT_NVMe.aml</string>
-			<string>SSDT.amlß</string>
-		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-alcbeta npci=0x3000 -lilubetaall -liludbgall</string>
+		<string>npci=0x3000 -lilubetaall -liludbgall alcid=5</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
@@ -597,7 +592,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>2</integer>
+		<integer>3</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
@@ -632,7 +627,6 @@
 			<string>Preboot</string>
 			<string>Recovery</string>
 			<string>Windows</string>
-			<string>Legacy</string>
 		</array>
 		<key>Mouse</key>
 		<dict>
@@ -646,7 +640,7 @@
 			<integer>2</integer>
 		</dict>
 		<key>ScreenResolution</key>
-		<string>3840x2160</string>
+		<string>1920x1080</string>
 		<key>Theme</key>
 		<string>ElCapitan</string>
 	</dict>
@@ -889,10 +883,10 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>MLB</key>
-		<string>C027421304NJG36JA</string>
+		<string>C02705130J9JG36JA</string>
 		<key>ROM</key>
 		<data>
-		Puon2lJl
+		4+tknRGJ
 		</data>
 	</dict>
 	<key>SMBIOS</key>
@@ -908,7 +902,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C027421304NJG36JA</string>
+		<string>C02705130J9JG36JA</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -936,16 +930,16 @@
 		<key>ProductName</key>
 		<string>iMacPro1,1</string>
 		<key>SerialNumber</key>
-		<string>C02VK2Z6HX87</string>
+		<string>C02T64YVHX87</string>
 		<key>SmUUID</key>
-		<string>70A43D46-FE15-4A84-A303-DF3325DA5265</string>
+		<string>6DD82D6F-25C4-458C-95D4-8AD0EF9D1189</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>70A43D46-FE15-4A84-A303-DF3325DA5265</string>
+		<string>6DD82D6F-25C4-458C-95D4-8AD0EF9D1189</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
